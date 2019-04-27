@@ -1,0 +1,8 @@
+{
+    "include": [
+        "sandbox.ts"
+    ],
+    "exclude": [
+        "helpers/linter.ts"
+    ]
+}

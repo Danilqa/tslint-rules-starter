@@ -1,0 +1,45 @@
+{
+    "name": "tslint-rules-starter",
+    "version": "1.0.0",
+    "description": "Includes specs, build and dev. environment",
+    "repository": "https://github.com/Danilqa/tslint-rules-starter.git",
+    "author": "Daniil Sitdikov <hello.boriskas@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "javascript",
+        "nodejs",
+        "rules",
+        "style",
+        "tslint",
+        "typescript",
+        "tsconfig"
+    ],
+    "scripts": {
+        "dev": "yarn build && yarn tslint --project tsconfig.dev.json",
+        "test": "yarn build && yarn jest",
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@types/jest": "22.2.2",
+        "@types/node": "10.12.21",
+        "jest": "23.6.0",
+        "ts-jest": "23.10.5",
+        "tslint": "5.12.1",
+        "typescript": "3.3.1"
+    },
+    "jest": {
+        "testMatch": [
+            "<rootDir>/rules/**/?(*.)spec.ts"
+        ],
+        "transform": {
+            "^.+\\.ts$": "ts-jest"
+        },
+        "testPathIgnorePatterns": [
+            "<rootDir>/node_modules/",
+            "<rootDir>/dist/"
+        ],
+        "moduleFileExtensions": [
+            "ts", "js"
+        ]
+    }
+}

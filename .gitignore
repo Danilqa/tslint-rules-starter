@@ -1,0 +1,11 @@
+# IDE
+/.idea
+
+# Dependencies
+/node_modules
+
+# Compiled output
+/dist
+
+# Sandbox
+# /sandbox/sandbox.ts
