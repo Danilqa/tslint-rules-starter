@@ -2,15 +2,26 @@
 
 Includes:
 - Simple rule example
-- Test for this rule
+- Tests for this rule
 - Sandbox for development
 - Building configuration
 
-Main language: `TypeScript`
+Main language: `TypeScript` \
+Package manager: `yarn`
+
+# Get started
+
+`yarn install` - to install dependencies
+
+# Scripts
+
+* `dev` - runs the lint for sandbox
+* `test` - runs rules tests
+* `build` - compile project to dist folder
 
 # How to use it in your consumer project
 
-Delivery it to `node_modules` (as npm package or just copy) and configure your `tslint.json`.
+Delivery it to `node_modules` (as npm package or just copy) and configure `tslint.json` of your project.
 ```
 {
     "rulesDirectory": [
