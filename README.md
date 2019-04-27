@@ -1,4 +1,4 @@
-A starter project for creating rules for TSLint.
+# A starter project for creating rules for TSLint
 
 Includes:
 - Simple rule example
