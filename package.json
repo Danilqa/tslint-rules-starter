@@ -38,6 +38,9 @@
             "<rootDir>/node_modules/",
             "<rootDir>/dist/"
         ],
+        "setupFiles": [
+            "<rootDir>/config/jest/expect.js"
+        ],
         "moduleFileExtensions": [
             "ts", "js"
         ]

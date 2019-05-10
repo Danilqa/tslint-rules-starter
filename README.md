@@ -5,6 +5,7 @@ Includes:
 - Tests for this rule
 - Sandbox for development
 - Building configuration
+- Jest expect methods
 
 Main language: `TypeScript` \
 Package manager: `yarn`

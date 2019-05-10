@@ -25,6 +25,9 @@
             "dom"
         ]
     },
+    "files": [
+        "types/jest.d.ts"
+    ],
     "include": [
         "rules",
         "utils"
